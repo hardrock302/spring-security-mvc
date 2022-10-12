@@ -3,7 +3,7 @@ This is the Readme for the user service using Spring Boot 2.7.3. It uses mysql f
 Import it into eclipse as an existing maven project and choose Run As->Spring Boot App
 It currently runs on port 8080, but it can be changed through the application.properties file
 
-It can be tested with postman through the localhost:8080/mood/users get/ register/ update/ delete/ endpoints respectively
+
 
 **Any operation save register now requires a json web token**
 
