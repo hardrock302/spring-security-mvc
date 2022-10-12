@@ -1,0 +1,19 @@
+INSERT INTO `mood_users`.`users`
+(`first_name`,
+`last_name`,
+`email`,
+`password`,
+`phone_number`,
+`enabled`,
+`membership_level`,
+`membership_expiry_date`)
+VALUES
+(
+"Jim",
+"Raynor",
+"jim@gmail.com",
+"(bcrypt)aaaaaaaaaaa",
+"1-111-111-1111",
+0,
+0,
+NULL);
