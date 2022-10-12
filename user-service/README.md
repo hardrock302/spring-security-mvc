@@ -41,7 +41,7 @@ When updating a user, one must provide a field in the json named "oldEmail" with
 
 Logging in:
 
-Loogging in can be done via /mood/authenticate/ with a {"email": "email value", "password": "Base-64 encoded password"}
+Loogging in can be done with a {"email": "email value", "password": "Base-64 encoded password"}
 
 A successful login will return a 200 status code and an authorization token in the authorization field in the header.
 
